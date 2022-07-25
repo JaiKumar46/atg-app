@@ -1,0 +1,25 @@
+/* @media (min-width: 300px) and (max-width: 768px) {
+.secondpage{
+    height: auto;
+    width:50% ;
+}
+    .secondpage-container{
+    position: relative;
+    
+}
+
+} */
+
+@media screen and (max-width: 768px) {
+    .secondpage{
+        height: 3rem;
+        width:768px;
+    }
+    .secondpage-container .cont ul{
+        position: absolute;
+        width: 358px;
+        height: 21px;
+        left: 200px;
+        top: 559px;
+    }
+}
